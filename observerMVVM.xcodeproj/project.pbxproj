@@ -12,6 +12,8 @@
 		0777581D21FFB0AD0083145F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0777581B21FFB0AD0083145F /* Main.storyboard */; };
 		0777581F21FFB0BA0083145F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0777581E21FFB0BA0083145F /* Assets.xcassets */; };
 		0777582221FFB0BA0083145F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0777582021FFB0BA0083145F /* LaunchScreen.storyboard */; };
+		0777582A21FFB1A50083145F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777582921FFB1A50083145F /* ViewModel.swift */; };
+		0777582C21FFB1AC0083145F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777582B21FFB1AC0083145F /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0777581E21FFB0BA0083145F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0777582121FFB0BA0083145F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0777582321FFB0BA0083145F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0777582921FFB1A50083145F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		0777582B21FFB1AC0083145F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				0777581E21FFB0BA0083145F /* Assets.xcassets */,
 				0777582021FFB0BA0083145F /* LaunchScreen.storyboard */,
 				0777582321FFB0BA0083145F /* Info.plist */,
+				0777582921FFB1A50083145F /* ViewModel.swift */,
+				0777582B21FFB1AC0083145F /* Model.swift */,
 			);
 			path = observerMVVM;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0777581A21FFB0AD0083145F /* ViewController.swift in Sources */,
+				0777582A21FFB1A50083145F /* ViewModel.swift in Sources */,
 				0777581821FFB0AD0083145F /* AppDelegate.swift in Sources */,
+				0777582C21FFB1AC0083145F /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
